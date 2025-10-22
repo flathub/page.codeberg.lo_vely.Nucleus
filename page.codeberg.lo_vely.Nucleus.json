@@ -1,7 +1,7 @@
 {
     "id" : "page.codeberg.lo_vely.Nucleus",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "48",
+    "runtime-version" : "49",
     "sdk" : "org.gnome.Sdk",
     "command" : "nucleus",
     "finish-args" : [
@@ -22,20 +22,6 @@
         "*.a"
     ],
     "modules" : [
-            {
-            "name" : "blueprint-compiler",
-            "buildsystem" : "meson",
-            "sources" : [
-                {
-                    "type" : "git",
-                    "url" : "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "tag" : "v0.16.0"
-                }
-            ],
-            "cleanup" : [
-                "*"
-            ]
-        },
         {
             "name" : "nucleus",
             "builddir" : true,
@@ -44,8 +30,8 @@
                 {
                     "type" : "git",
                     "url" : "https://codeberg.org/lo-vely/nucleus.git",
-                    "tag": "v1",
-                    "commit": "63590f0294b8773bfb07e6a31cd59c8e57bfe0d0"
+                    "tag": "v2",
+                    "commit": "c0a5014e47ee9f0f91ac307ae65b9dc7692717ac"
                 }
             ]
         }
