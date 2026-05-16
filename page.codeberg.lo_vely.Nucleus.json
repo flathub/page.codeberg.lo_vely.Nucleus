@@ -31,7 +31,7 @@
                     "type" : "git",
                     "url" : "https://codeberg.org/lo-vely/nucleus.git",
                     "tag": "v3",
-                    "commit": "c6ba810d1bbc19f6c33c83f1ae6f90bd3adca410"
+                    "commit": "3aec3fc79a59575c6c9decf79f6d9ceb2d0270ec"
                 }
             ]
         }
